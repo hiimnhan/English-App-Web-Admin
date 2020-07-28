@@ -1,0 +1,30 @@
+@import '../../assets/styles/colors.scss';
+.login-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  color: $purple;
+}
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+
+  &--left {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &--right {
+    display: flex;
+    flex: 2;
+  }
+}
+
+.login-image {
+  max-width: 100%;
+  height: auto;
+}

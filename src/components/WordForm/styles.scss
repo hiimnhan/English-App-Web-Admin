@@ -1,0 +1,23 @@
+@import '../../assets/styles/colors.scss';
+.form-container {
+  position: relative;
+  background-color: $white;
+  width: 400px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.form-title {
+  font-weight: bold;
+  color: $purple;
+  font-size: 24px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

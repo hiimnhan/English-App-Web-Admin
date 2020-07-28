@@ -1,0 +1,61 @@
+@import '../../assets/styles/colors.scss';
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  background-color: $white;
+}
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  height: 100%;
+
+  .navbar-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30px;
+    height: 100%;
+
+    &__logo {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      color: $purple;
+      margin-left: 20px;
+    }
+    &__icon {
+      padding-right: 5px;
+      padding-top: 4px;
+
+      &--selected {
+        color: $purple;
+      }
+    }
+
+    &__text {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+
+      &--selected {
+        color: $purple;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+      color: $purple;
+    }
+  }
+}
+
+.logo-image {
+  width: 64px;
+  height: 64px;
+}

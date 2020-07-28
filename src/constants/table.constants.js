@@ -1,0 +1,1 @@
+const bankHeaders = ['ID', 'Name'];
